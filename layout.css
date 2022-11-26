@@ -1,0 +1,112 @@
+fieldset:not(.legend) {
+  max-width: 60%;
+  margin: 100px auto;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 22px;
+  display: block;
+}
+  
+
+.legend {
+  border: 0.5px solid black;
+  font-size: 18px;
+  padding: 5px 30px 5px 5px;
+  margin-left: -185px;
+}
+
+@media (max-width: 780px) {
+    .legend {
+        margin-left: 0;
+    }
+}
+
+div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type="text"],
+input[type="email"] {
+  height: 20px;
+  width: 250px;
+}
+input[type="radio"] {
+  transform: scale(1.6);
+}
+
+.radio--container {
+  width: 260px;
+  margin: auto;
+}
+
+p {
+  font-size: 15.5px;
+}
+
+#css {
+  margin-left: auto;
+}
+
+#javascript {
+  margin-left: auto;
+}
+
+textarea {
+  width: 250px;
+  height: 50px;
+}
+
+.textarea--label--div {
+  width: 250px;
+  margin: 20px auto 0;
+  justify-content: flex-start;
+  font-size: larger;
+}
+
+.status--date {
+  width: 260px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+select {
+  width: 120px;
+  height: 25px;
+}
+
+input[type="date"] {
+  width: 120px;
+  height: 20px;
+}
+
+.status,
+.date {
+  width: 120px;
+  flex-wrap: wrap;
+}
+
+.status {
+  margin-right: auto;
+}
+
+input[type="checkbox"] {
+  transform: scale(2);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.checkbox--container {
+  font-size: small;
+  width: 250px;
+  margin: 15px auto;
+}
+
+button {
+  width: 120px;
+  height: 25px;
+  background-color: white;
+  margin-bottom: 40px;
+}
